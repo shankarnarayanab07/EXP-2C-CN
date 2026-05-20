@@ -18,7 +18,7 @@ stored.
    
 ## PROGRAM - ARP
 ## Server.py - ARP:
-```
+```python
 import socket
 
 s = socket.socket()
@@ -46,7 +46,7 @@ while True:
 
 ```
 ## Client.py - ARP:
-```
+```python
 import socket
 
 s = socket.socket()
@@ -76,7 +76,7 @@ while True:
 
 ## PROGRAM - RARP
 ## Server.py - RARP:
-```
+```python
 import socket
 s = socket.socket()
 s.bind(('localhost', 8000))
@@ -102,7 +102,7 @@ s.close()
 ```
 
 ## Client.py - RARP:
-```
+```python
 import socket
 s = socket.socket()
 s.connect(('localhost', 8000))
